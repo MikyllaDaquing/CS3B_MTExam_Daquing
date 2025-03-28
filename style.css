@@ -1,0 +1,318 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bfd0f9;
+}
+
+header {
+    background-color: #a5baff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #7cc3ed;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom: #7d91f8 5px solid;
+    border-top: #7d91f8 5px solid;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+    background-color: #bfd0f9;
+}
+
+.main-content section {
+    flex: 2;
+    padding: 20px;
+}
+
+.main-content section h2 {
+    margin-top: 0;
+}
+
+.main-content section p {
+    margin-bottom: 20px;
+}
+
+.main-content section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.main-content section ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.main-content section blockquote {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.main-content section pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.main-content form {
+    background-color: #58aff2;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 5px solid rgb(79, 92, 232);
+    border-radius: 10px;
+}
+
+.main-content form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.main-content form input,
+.main-content form textarea {
+    width: 98%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.main-content form input[type="submit"] {
+    background-color: #4239e8;
+    color: white;
+    padding: 10px 20px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main-content form input[type="submit"]:hover {
+    background-color: #1ec7f1;
+}
+
+.main-content aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#achievements{
+    background-color: #77bdf1;
+    padding: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 5px solid rgb(96, 162, 238);
+    border-radius: 10px;
+}
+
+#achievements:hover{
+    transform: scale(1.1);
+}
+
+#training{
+    background-color: #77bdf1;
+    padding: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 5px solid rgb(96, 162, 238);
+    border-radius: 10px;
+}
+
+#training:hover{
+    transform: scale(1.1);
+}
+
+#education{
+    background-color: #77bdf1;
+    padding: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 5px solid rgb(96, 162, 238);
+    border-radius: 10px;
+}
+
+#education:hover{
+    transform: scale(1.1);
+}
+
+#skills{
+    background-color: #77bdf1;
+    padding: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 5px solid rgb(96, 162, 238);
+    border-radius: 10px;
+}
+
+#skills:hover{
+    transform: scale(1.1);
+}
+
+#contact{
+    background-color: #77bdf1;
+    padding: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 5px solid rgb(96, 162, 238);
+    border-radius: 10px;
+}
+
+#contact:hover{
+    transform: scale(1.1);
+}
+
+article {
+    flex: 3;
+}
+
+.main-content aside {
+    background-color: #a5baff;
+}
+
+aside {
+    flex: 1;
+    width: 20%;
+    padding: 20px;
+}
+
+aside img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 3px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 7px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card #price{
+    font-weight: bold;
+    color: rgb(127, 254, 246);
+}
+
+.product-card img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card button {
+    background-color: #a5baff;
+    color: rgb(17, 13, 21);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product-card button:hover {
+    background-color: #a5b1eb;
+}
+
+.product-card button:active {
+    background-color: #6379e9;
+}
+
+.product-card .product-details{
+    background-color: #6379e9;
+    color: rgb(62, 243, 240);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10%;
+}
+
+.product-card .product-details1{
+    background-color: #6379e9;
+    color: rgb(62, 243, 240);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10%;
+}
+
+.product-card .product-details2{
+    background-color: #6379e9;
+    color: rgb(62, 243, 240);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10%;
+}
+
+.product-card .product-details3{
+    background-color: #6379e9;
+    color: rgb(62, 243, 240);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10%;
+}
+
+.product-card .product-details4{
+    background-color: #6379e9;
+    color: rgb(62, 243, 240);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 10%;
+}
+
+footer {
+    background-color: #a5baff;
+    text-align: center;
+    padding: 10px;
+}
+
+.feature-presentation img{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.feature-presentation p{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
